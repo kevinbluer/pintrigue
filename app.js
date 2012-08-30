@@ -26,6 +26,11 @@ app.configure('development', function(){
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true })); 
 });
 
+app.configure('production', function(){
+	mongoose.connect('mongodb://pintrigue:p1ntr1gu3@alex.mongohq.com:10067/pintrigue');
+    app.use(express.errorHandler()); 
+});
+
 mongoose.connection.on("open", function(){
   console.log("mongodb is connected.");
 });
