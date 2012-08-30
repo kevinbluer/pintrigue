@@ -1,0 +1,55 @@
+body {
+  position: relative;
+  background-color: #000;
+/*  background-image: url(../img/wg_frosted_glass_5.jpg); */
+  background-image: url(../img/wg_packing_textures1.jpg);
+/*  background-image: url(../img/grunge8.jpg); */
+/*  background-image: url(../img/wg_tshirt_textures_vol2_5.jpg); */
+
+  background-repeat: repeat;
+  background-position: 0 40px;
+
+  color: white;
+}
+
+h1, h3, p {
+	text-shadow: 1px 2px 4px #2c2d2d; /* Make this more specific */
+}
+
+.photo {
+	width: 300px;
+	padding-top: 20px;
+	margin-right: 50px;
+	margin-left: 20px;
+	float: left;
+}
+
+.background {
+	background-color: rgba(0,0,0,0.3);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.thumbnail {
+  padding: 10px;
+  padding-bottom: 30px;
+  width: 340px;
+  background-color: white;
+}
+
+.brand {
+
+}
+
+.upload {
+	margin: 10px;
+}
+
+/*
+
+- use list.js to filter against comma separated tags
+- comma separated tab field against a image document
+- have a here's one I made earlier (automate / script this out of
+- Lightroom if possible...see if book offers any tips here)
+
+*/
