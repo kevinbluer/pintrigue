@@ -1,15 +1,14 @@
 body {
   position: relative;
   background-color: #000;
-/*  background-image: url(../img/wg_frosted_glass_5.jpg); */
   background-image: url(../img/wg_packing_textures1.jpg);
-/*  background-image: url(../img/grunge8.jpg); */
-/*  background-image: url(../img/wg_tshirt_textures_vol2_5.jpg); */
-
   background-repeat: repeat;
   background-position: 0 40px;
-
   color: white;
+
+	background-image: url(../img/wg_frosted_glass_5.jpg);
+/*  background-image: url(../img/grunge8.jpg); */
+/*  background-image: url(../img/wg_tshirt_textures_vol2_5.jpg); */
 }
 
 h1, h3, p {

@@ -39,7 +39,7 @@ mongoose.connection.on("open", function(){
 // register endpoints
 // ******************
 
-/* ### example ### */
+/* ### example-1 ### */
 app.get('/hello', function(request, response) {
 
 	// say hello
@@ -81,6 +81,7 @@ app.post('/images/upload', function(request, response) {
 	
 });
 
+/* ### example-1 ### */
 var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Pintrigue is Listening on " + port);
